@@ -1,0 +1,273 @@
+/* ==========================
+/////////// GENERAL /////////
+========================== */
+*{
+  outline: none;
+  font-family: helvetica neue;
+  text-decoration: none;
+  overflow: hidden;
+  letter-spacing: 1px; !important;
+}
+
+#welcome, #about-us, #portafolio {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+}
+
+/* ==========================
+/////////// NAVBAR //////////
+========================== */
+ul.nav-bar {
+  text-align: center;
+}
+
+ul.nav-bar>li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 85px 0px 20px 0px;
+}
+
+ul.nav-bar>li>a {
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 15px 0px 15px;
+  color: #a8a8a8;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+ul.nav-bar>li>a:hover {
+  color: #000 !important;
+}
+
+ul.nav-bar>li>a:active {
+  color: #000 !important;
+}
+
+/* --- Logo --- */
+img.logo {
+  width: 130px;
+  margin: 10px 10px 0px 10px;
+}
+
+/* ==========================
+/////////// SOCIAL //////////
+========================== */
+div.social {
+  text-align: center;
+}
+
+div.social a{
+  color: #818181;
+  font-size: 25px;
+  border: 1.5px solid #818181;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 10px 5px 0px 5px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+}
+
+div.social a:hover {
+  background: #818181;
+  color: #fff;
+}
+
+  /* --- Facebook --- */
+  div.social a.fa-facebook {
+    padding: 5px 10px 4px 10px;
+  }
+  /* --- Linkedin --- */
+  div.social a.fa-linkedin {
+    padding: 5px 7px 5px 7px;
+  }
+  /* --- Instagram --- */
+  div.social a.fa-instagram {
+    padding: 5px 6px 4px 6px;
+  }
+  /* --- Pinterest --- */
+  div.social a.fa-pinterest-p {
+    padding: 5px 7px 3px 7px;
+  }
+/* ==========================
+///////// BIENVENIDO ////////
+========================== */
+section#welcome > div.about-img {
+  float: left;
+  margin-left: 170px;
+  background: #fff;
+  overflow: hidden;
+  width: 650px;
+	height: 400px;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+  transform: skew(-30deg);
+}
+
+  /* --- Enderezar img --- */
+  section#welcome > div.about-img > img {
+    height: 500px;
+    margin: 0px 0px 100px -100px;
+    -webkit-transform: skew(30deg);
+  	-moz-transform: skew(30deg);
+  	-o-transform: skew(30deg);
+    transform: skew(30deg);
+  }
+
+section#welcome > div.about-text {
+  float: right;
+  margin-right: 20px;
+  bottom: 0px;
+  color: #fff;
+  width: 400px;
+}
+
+section#welcome > div.about-text > h1 {
+  padding-top: 150px;
+  font-size: 40px;
+  text-align: right;
+}
+
+section#welcome > div.about-text > p {
+  text-align: left;
+  font-weight: lighter;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+/* ==========================
+////////// NOSOTROS /////////
+========================== */
+section#about-us > div.about-img {
+  float: right;
+  margin-right: 115px;
+  background: #fff;
+  overflow: hidden;
+  width: 600px;
+	height: 400px;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+  transform: skew(-30deg);
+}
+
+  /* --- Enderezar img --- */
+  section#about-us > div.about-img img {
+    height: 570px;
+    margin-left: -65px;
+    -webkit-transform: skew(30deg)!important;
+  	-moz-transform: skew(30deg)!important;
+  	-o-transform: skew(30deg)!important;
+    transform: skew(30deg)!important;
+  }
+
+section#about-us > div.about-text {
+  float: left;
+  margin-left: 40px;
+  color: #fff;
+  width: 450px;
+}
+
+section#about-us > div.about-text > h1 {
+  font-size: 45px;
+}
+
+section#about-us > div.about-text > p {
+  font-weight: lighter;
+}
+
+/* ==========================
+////////// CONTACTO /////////
+========================== */
+section#contact {
+  width: 100%;
+  height: 400px;
+  margin: 10px 0px 0px -165px;
+  background: #000;
+  -webkit-transform: skew(-40deg);
+	-moz-transform: skew(-40deg);
+	-o-transform: skew(-40deg);
+  transform: skew(-40deg);
+  /* --- border-top: 400px solid #000;
+  border-right: 400px solid transparent; --- */
+}
+
+section#contact div.about-img {
+  float: left;
+  -webkit-transform: skew(40deg);
+	-moz-transform: skew(40deg);
+	-o-transform: skew(40deg);
+  transform: skew(40deg);
+}
+section#contact div.about-img > img {
+  width: 350px;
+  margin: 25px 0px 0px 240px;
+
+}
+section#contact div.about-text {
+  float: right;
+  width: 500px;
+  margin-right: 65px;
+
+  -webkit-transform: skew(40deg);
+	-moz-transform: skew(40deg);
+	-o-transform: skew(40deg);
+  transform: skew(40deg);
+}
+
+input.form-control {
+  height: 20px;
+  width: 200px;
+  font-size: 13px;
+  border-radius: 0px;
+  font-weight: 200;
+}
+
+.form-control:focus {
+  border-color: #ccc;
+  background-color: #ccc;
+  color: #fff;
+}
+
+textarea.form-control {
+  width: 350px !important;
+  border-radius: 0px;
+}
+
+button.boton {
+  color: #fff;
+  float: right;
+  background-color: transparent;
+  margin-right: 175px;
+  border-color: transparent !important;
+  font-weight: lighter;
+}
+
+section#contact div.about-text > h1 {
+  text-align: left;
+  color: #fff;
+}
+/* ==========================
+/////////// FOOTER //////////
+========================== */
+footer {
+  position:absolute;
+  bottom:5px;
+  width:100%;
+  height:20px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 200;
+}
+
+footer p > a > img {
+  width: 95px;
+}

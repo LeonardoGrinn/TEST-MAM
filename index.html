@@ -1,0 +1,85 @@
+<html ng-app='angularRoutingApp'>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="GreenLyon">
+
+        <!-- ========== Booststrap CSS ========== -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css">  Local -->
+
+        <!-- ========== Estilos CSS ========== -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Estilos -->
+        <link rel="stylesheet" href="css/animation.css"> <!-- Animaciones -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome -->
+    </head>
+
+    <body ng-controller='mainController'>
+
+        <!-- ========== Inicia Header ========== -->
+        <nav class="">
+            <div class="">
+
+                <!-- Inicia Nav URL-->
+                <div class="text-center">
+                    <ul class="nav-bar">
+                        <li>
+                            <a href="#/inicio">Bienvenido</a>
+                        </li>
+                        <li>
+                            <a href="#/nosotros">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#/portafolio">portafolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#/contact">Contacto</a>
+                        </li>
+                    </li>
+
+
+                    <!-- Inicia Logo -->
+                    <div style="float:right">
+                      <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
+                    </div>
+                    <!-- Termina Logo -->
+                </ul>
+            </div>
+            <!-- Termina Nav URL -->
+        </div>
+    </nav>
+
+    <!-- ========== Inicia Contenedor ========== -->
+    <div class="main">
+        <ng-view></ng-view>
+    </div> <!-- Termina Contenedor -->
+
+    <!-- ========== Inicia Social Media ========== -->
+    <div class="social">
+      <a class="fa fa-facebook" aria-hidden="true" href="#"></a>
+      <a class="fa fa-linkedin" aria-hidden="true" href="#"></a>
+      <a class="fa fa-instagram" aria-hidden="true" href="#"></a>
+      <a class="fa fa-pinterest-p" aria-hidden="true" href="#"></a>
+    </div> <!-- Termina Social Media -->
+
+    <!-- ========== Inicia Footer ========== -->
+    <footer>
+      <p>Sitio desarrollado por <a href="#"><img src="img/TEXTOGREEN.png" alt=""></a></p>
+    </footer> <!-- Termina Footer -->
+
+    <!-- ========== Librerias Angular JS ========== -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.7/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.3/angular-route.js"></script>
+
+    <!-- ========== Librerias Angular JS Locales ==========
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script> -->
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
