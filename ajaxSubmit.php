@@ -16,7 +16,7 @@ $comentario .= "Su e-mail es: " . $email . " \r\n";
 $comentario .= "Su telefono es: " . $telefono . " \r\n";
 $comentario .= "Su mensaje es: ". $mensaje ." \r\n";
 
-$para = 'contact@greenlyon.com';
+$para = 'eduardo@muebleatemporal.mx';
 $asunto = 'Contacto desde pagina web';
 
 mail($para, $asunto, utf8_decode($comentario), $header);
